@@ -1,12 +1,12 @@
-module Task1 (solution1, solution2) where
+module Task1 (sol1, sol2) where
 
 import Data.List (sortOn)
 
-solution1 :: IO Int
-solution1 = maximum <$> input
+sol1 :: IO Int
+sol1 = maximum <$> input
 
-solution2 :: IO Int
-solution2 = sum . take 3 . sortOn negate <$> input
+sol2 :: IO Int
+sol2 = sum . take 3 . sortOn negate <$> input
 
 input :: IO [Int]
 input = do

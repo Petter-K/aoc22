@@ -26,6 +26,7 @@ source-repository head
 executable aoc22-exe
   main-is: Task1.hs
   other-modules:
+      Task2
       Paths_aoc22
   hs-source-dirs:
       app
