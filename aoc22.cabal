@@ -30,6 +30,7 @@ executable aoc22-exe
       Task3
       Task4
       Task5
+      Task6
       Paths_aoc22
   hs-source-dirs:
       app
